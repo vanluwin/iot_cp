@@ -91,7 +91,7 @@ Agora falta a parte de controle na Web do nosso dispositivo. Vamos fazer um site
 
 Processo para criar um diretório e inicar seu projeto:
  
-    ```bash
+    ```
         mkdir iot # Nome do diretório fica a seu critério
         cd iot
         firebase init
@@ -110,19 +110,19 @@ Para adequar a aplicação a seu projeto é necessario alterar as credenciais do
 
 Para teste sua aplicação localmente inicie o servidor local com o comando:
 
-    ```bash
+    ```
         firebase serve
     ```
 
 Para fazer o deploy de sua aplicação no firebase execute: 
 
-    ```bash
+    ```
         firebase deploy
     ```
 
 :fire: :fire: :fire:**Sua primeira aplicação está pronta e hospedada no Firebase**:fire: :fire: :fire:
 
-### Conslusão 
+### Conclusão 
 
 Agora meu jovem padawan, você possui o conhecimento necessário para criar suas aplicações utilizando mais está incrivel ferramenta, que possui tantos outros recursos interessantes para auxiliá-lo em seus projetos.
 
