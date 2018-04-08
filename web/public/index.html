@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Manual do Maker: IOT</title>
+
+    <!-- MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-deep_orange.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Ubuntu" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background-color: #f7f7f7;
+    }
+
+    .icon {
+        font-size: 100px;
+        margin-left: 100px;
+    }
+    
+    .p_font {
+        font-family: 'Pacifico', cursive;
+    }
+
+    .u_font {
+        font-family: 'Ubuntu', sans-serif;
+    }
+</style>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Adiciona um espaçamento -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Titulo -->
+                <span class="mdl-layout-title p_font" style="color: white;">
+                    Manual do Maker: IOT
+                </span>
+                <!-- Adiciona um espaçamento  -->
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content mdl-grid">
+                <!-- Conteudo da página-->
+                <div class="mdl-cell mdl-cell--4-col"></div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text u_font">
+                                LED
+                            </h2>
+                        </div>
+    
+                        <div class="mdl-card__supporting-text">
+                            <div>
+                                <i id="led" class="material-icons icon">flash_off</i>
+                            </div>
+                        </div>
+
+                        <div class="mdl-card__actions">
+                            <button id="btn" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent u_font" style="color: white;">
+                                Ligar/Desligar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col"></div>
+            </div>
+        </main>
+    </div>
+</body>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
+<!-- Script -->
+<script src="./bach.js"></script>
+</html>

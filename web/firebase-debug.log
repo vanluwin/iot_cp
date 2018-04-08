@@ -1,0 +1,32 @@
+[debug] [2018-04-08T12:27:16.836Z] ----------------------------------------------------------------------
+[debug] [2018-04-08T12:27:16.840Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-08T12:27:16.840Z] CLI Version:   3.17.4
+[debug] [2018-04-08T12:27:16.840Z] Platform:      linux
+[debug] [2018-04-08T12:27:16.840Z] Node Version:  v9.4.0
+[debug] [2018-04-08T12:27:16.840Z] Time:          Sun Apr 08 2018 09:27:16 GMT-0300 (-03)
+[debug] [2018-04-08T12:27:16.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-08T12:27:16.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-08T12:27:16.852Z] > authorizing via signed-in user
+[debug] [2018-04-08T12:27:16.854Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/iot-cp-42  
+  
+ Sun Apr 08 2018 09:27:16 GMT-0300 (-03)
+[debug] [2018-04-08T12:27:18.248Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T12:27:18.248Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/iot-cp-42/tokens  
+  
+ Sun Apr 08 2018 09:27:18 GMT-0300 (-03)
+[debug] [2018-04-08T12:27:19.124Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/richard/repos/iot_cp/web'...
+[info] 
+[debug] [2018-04-08T12:27:19.130Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/iot-cp-42  
+  
+ Sun Apr 08 2018 09:27:19 GMT-0300 (-03)
+[debug] [2018-04-08T12:27:20.437Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-08T12:27:20.438Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/860422669142/clients/_:getWebAppConfig  
+  
+ Sun Apr 08 2018 09:27:20 GMT-0300 (-03)
+[debug] [2018-04-08T12:27:22.157Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
