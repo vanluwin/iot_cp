@@ -34,6 +34,12 @@
     .u_font {
         font-family: 'Ubuntu', sans-serif;
     }
+
+    .pot_txt {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 60px;
+        text-align: center;
+    }
 </style>
 
 <body>
@@ -54,7 +60,7 @@
         <main class="mdl-layout__content">
             <div class="page-content mdl-grid">
                 <!-- Conteudo da página-->
-                <div class="mdl-cell mdl-cell--4-col"></div>
+                <div class="mdl-cell mdl-cell--2-col"></div>
                 <div class="mdl-cell mdl-cell--4-col">
                     <div class="mdl-card mdl-shadow--4dp">
                         <div class="mdl-card__title">
@@ -65,7 +71,7 @@
     
                         <div class="mdl-card__supporting-text">
                             <div>
-                                <i id="led" class="material-icons icon">flash_off</i>
+                                <i id="led" class="material-icons icon"></i>
                             </div>
                         </div>
 
@@ -76,15 +82,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-cell--4-col"></div>
+
+                <div class="mdl-cell mdl-cell--4-col">
+                    <div class="mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text ufont">
+                                Potenciômetro 
+                            </h2>
+                        </div>
+    
+                        <div class="mdl-card__supporting-text">
+                            <h1 id="pot_value" class="mdl-card__supporting-text pot_txt"></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--2-col"></div>
             </div>
         </main>
     </div>
 </body>
 
-<!-- jQuery -->
+<!-- jQuery 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+-->
 <!-- Firebase -->
 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 

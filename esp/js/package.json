@@ -1,0 +1,10 @@
+{
+  "name": "iot_cp",
+  "version": "1.0.0",
+  "main": "bach.js",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "johnny-five": "^0.14.3"
+  }
+}

@@ -1,32 +1,41 @@
-[debug] [2018-04-08T12:27:16.836Z] ----------------------------------------------------------------------
-[debug] [2018-04-08T12:27:16.840Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-04-08T12:27:16.840Z] CLI Version:   3.17.4
-[debug] [2018-04-08T12:27:16.840Z] Platform:      linux
-[debug] [2018-04-08T12:27:16.840Z] Node Version:  v9.4.0
-[debug] [2018-04-08T12:27:16.840Z] Time:          Sun Apr 08 2018 09:27:16 GMT-0300 (-03)
-[debug] [2018-04-08T12:27:16.840Z] ----------------------------------------------------------------------
+[debug] [2018-04-12T00:06:28.150Z] ----------------------------------------------------------------------
+[debug] [2018-04-12T00:06:28.153Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-12T00:06:28.154Z] CLI Version:   3.17.4
+[debug] [2018-04-12T00:06:28.154Z] Platform:      linux
+[debug] [2018-04-12T00:06:28.154Z] Node Version:  v9.4.0
+[debug] [2018-04-12T00:06:28.154Z] Time:          Wed Apr 11 2018 21:06:28 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:28.154Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-04-08T12:27:16.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-04-08T12:27:16.852Z] > authorizing via signed-in user
-[debug] [2018-04-08T12:27:16.854Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/iot-cp-42  
+[debug] [2018-04-12T00:06:28.166Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-12T00:06:28.167Z] > authorizing via signed-in user
+[debug] [2018-04-12T00:06:28.168Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-12T00:06:28.168Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/8BXLkdYR73Xotfm2z8E_wm_pStlFSXk3pBdcWgZgnEA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Apr 11 2018 21:06:28 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:29.387Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-12T00:06:29.390Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/iot-cp-42  
   
- Sun Apr 08 2018 09:27:16 GMT-0300 (-03)
-[debug] [2018-04-08T12:27:18.248Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-08T12:27:18.248Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/iot-cp-42/tokens  
+ Wed Apr 11 2018 21:06:29 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:30.808Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-12T00:06:30.810Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/iot-cp-42/tokens  
   
- Sun Apr 08 2018 09:27:18 GMT-0300 (-03)
-[debug] [2018-04-08T12:27:19.124Z] <<< HTTP RESPONSE 200
+ Wed Apr 11 2018 21:06:30 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:31.668Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/home/richard/repos/iot_cp/web'...
 [info] 
-[debug] [2018-04-08T12:27:19.130Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/iot-cp-42  
+[debug] [2018-04-12T00:06:31.676Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/iot-cp-42  
   
- Sun Apr 08 2018 09:27:19 GMT-0300 (-03)
-[debug] [2018-04-08T12:27:20.437Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-08T12:27:20.438Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/860422669142/clients/_:getWebAppConfig  
+ Wed Apr 11 2018 21:06:31 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:33.632Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-12T00:06:33.633Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/860422669142/clients/_:getWebAppConfig  
   
- Sun Apr 08 2018 09:27:20 GMT-0300 (-03)
-[debug] [2018-04-08T12:27:22.157Z] <<< HTTP RESPONSE 200
+ Wed Apr 11 2018 21:06:33 GMT-0300 (-03)
+[debug] [2018-04-12T00:06:35.807Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
