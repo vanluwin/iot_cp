@@ -91,11 +91,12 @@ Agora falta a parte de controle na Web do nosso dispositivo. Vamos fazer um site
 
 Processo para criar um diretório e inicar seu projeto:
  
-    ```bash
+     ```bash
         mkdir iot # Nome do diretório fica a seu critério
         cd iot
         firebase init
     ```
+    
 Com isso você vai vincular a pasta com o projeto criado no console do Firebase, então escolha corretamente o projeto que foi criado anteriormente. Ele vai criar a pasta public, onde vão os arquivos que podem ser hospedados no Firebase e serem acessados na web e também alguns arquivos de configuração do projeto.
 
 O firebase-tools possui também um servidor embutido, então estando na pasta você pode rodar firebase serve, para iniciar um servidor web na pasta public na porta 5000 por padrão.
@@ -129,11 +130,3 @@ Agora meu jovem padawan, você possui o conhecimento necessário para criar suas
 Boa sorte em seus projetos, qualquer duvida podem entrar em contato.
 
 Vida Longa e Próspera :spock-hand:  
-
-
-
-
-
-
-    
-
